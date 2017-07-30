@@ -5,8 +5,8 @@ INC_PATH	= -IE:/Libs/boost_1_64_0
 LIB_PATH	= -LE:/Libs/boost_1_64_0/stage/lib
 USED_LIBS	= -lboost_filesystem-mgw51-mt-1_64 -lboost_system-mgw51-mt-s-1_64
 
-CXX			= g++ -c
-LINK		= g++
+CXX			= clang++ -c
+LINK		= clang++
 
 CXXFLAGS	= -std=c++14 -O2 -Wall
 
